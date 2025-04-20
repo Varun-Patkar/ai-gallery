@@ -37,11 +37,11 @@ This project was developed by the creator primarily as an exercise to showcase 3
 
 ## Deployed Version
 
-- **Link:** [TBD - Add deployment link here]
+- **Link:** [https://universe-conqueror-ai.vercel.app/](https://universe-conqueror-ai.vercel.app/)
 
 ## YouTube Demo
 
-- **Video:** [TBD - Add YouTube link here]
+- **Video:** [https://youtu.be/Gt_kxUQwSLY?si=-LbCM-hq_s16y5Wu](https://youtu.be/Gt_kxUQwSLY?si=-LbCM-hq_s16y5Wu)
 
 ## Development Notes
 
