@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Gallery - Universe Conqueror's Vault
 
-## Getting Started
+## Description
 
-First, run the development server:
+Welcome, Universe Conqueror! This project is a 3D interactive gallery showcasing powerful artifacts from the Marvel Universe. You, the most powerful being, are visiting your private vault to reminisce about the "good old days".
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The scene is built using React, Three.js, React Three Fiber, Drei, and Rapier for physics. The main feature is your AI Butler, Alfred, powered locally in your browser using WebLLM and the Llama 3.1 8B model. Alfred is designed to be... well, let's just say he has a personality, programmed with a healthy dose of sass and wit as per your specifications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was primarily an exercise to showcase 3D and AI integration skills within a short timeframe.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **3D Gallery:** Explore a detailed vault environment.
+- **First-Person Controls:** Navigate the vault using standard WASD controls and mouse look.
+- **Interactable Artifacts:** Look at artifacts like Iron Man's Mk 1 Armor, Captain America's Shield, Mjolnir, and Spider-Man's Mask.
+- **AI Butler (Alfred):** Press 'P' to chat with Alfred. He's aware of what you're looking at (sometimes) and will respond with characteristic sass. Powered by WebLLM running locally.
+- **Background Music:** Toggle ambient music with the 'M' key.
 
-## Learn More
+## Local Setup
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repo-url>
+    cd ai-gallery
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Note:** WebLLM requires downloading the language model (approx. 4GB) the first time you load the page. Ensure you have sufficient disk space and a stable internet connection. Performance depends heavily on your hardware (GPU is recommended).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployed Version
 
-## Deploy on Vercel
+- **Link:** [TBD - Add deployment link here]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## YouTube Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Video:** [TBD - Add YouTube link here]
+
+## Development Notes
+
+This project was developed casually over approximately 3 days alongside other activities (like gaming!).
+
+- **AI Assistance:** Roughly 50% of the code was generated or assisted by GitHub Copilot.
+- **Bug Fixing:** Around 20% of the time was spent debugging issues, often related to AI suggestions or library integrations.
+- **Manual Coding:** The remaining 30% involved manual coding, particularly when integrating complex features or when AI suggestions were insufficient.
+- **Optimization:** Performance optimization was _not_ a primary goal. The project is resource-intensive, especially due to the local LLM and 3D rendering. It serves mainly as a proof-of-concept.
+
+## Attributions
+
+- **3D Model:** "Metallic Showroom Gallery" by [jimbogies](https://skfb.ly/oEyUM) licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/). (Individual artifact licenses are in their respective `/public` folders).
+- **Music:** "Calm Gaming Flow" by [Fopihe](https://pixabay.com/users/fopihe-49678680/) from [Pixabay](https://pixabay.com/).
