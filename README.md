@@ -20,7 +20,7 @@ This project was developed by the creator primarily as an exercise to showcase 3
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url> # Replace with the actual repository URL
+    git clone https://github.com/Varun-Patkar/universe-conqueror-ai.git
     cd ai-gallery
     ```
 2.  **Install dependencies:**
