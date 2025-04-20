@@ -20,7 +20,7 @@ This project was primarily an exercise to showcase 3D and AI integration skills 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone [https://github.com/Varun-Patkar/universe-conqueror-ai.git](https://github.com/Varun-Patkar/universe-conqueror-ai.git)
     cd ai-gallery
     ```
 2.  **Install dependencies:**
