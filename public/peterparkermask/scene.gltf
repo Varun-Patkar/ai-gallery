@@ -1,0 +1,482 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 748,
+      "max": [
+        0.5193356275558472,
+        0.20605438947677612,
+        0.010944400914013386
+      ],
+      "min": [
+        -0.5637179613113403,
+        -0.150882288813591,
+        -0.30766716599464417
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8976,
+      "componentType": 5126,
+      "count": 748,
+      "max": [
+        0.9776570200920105,
+        0.8431288003921509,
+        0.9906236529350281
+      ],
+      "min": [
+        -0.9777505993843079,
+        -0.9146155714988708,
+        -0.95261549949646
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 748,
+      "max": [
+        0.500433087348938,
+        0.9882171154022217
+      ],
+      "min": [
+        0.000140549658681266,
+        0.000140549658681266
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 4416,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17952,
+      "componentType": 5126,
+      "count": 7532,
+      "max": [
+        0.09561769664287567,
+        0.11947739124298096,
+        1.7716624736785889
+      ],
+      "min": [
+        -0.09561769664287567,
+        0.048787470906972885,
+        1.6635817289352417
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 108336,
+      "componentType": 5126,
+      "count": 7532,
+      "max": [
+        0.9997828602790833,
+        0.974923312664032,
+        0.9998382329940796
+      ],
+      "min": [
+        -0.9997828602790833,
+        -0.9908572435379028,
+        -0.9999477863311768
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5984,
+      "componentType": 5126,
+      "count": 7532,
+      "max": [
+        0.8286784887313843,
+        0.9999999403953552
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 17664,
+      "componentType": 5125,
+      "count": 24180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 198720,
+      "componentType": 5126,
+      "count": 11096,
+      "max": [
+        0.11226003617048264,
+        0.3271792531013489,
+        1.865656852722168
+      ],
+      "min": [
+        -0.11227906495332718,
+        0.04011783003807068,
+        1.496085286140442
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 331872,
+      "componentType": 5126,
+      "count": 11096,
+      "max": [
+        0.9999202489852905,
+        0.9999806880950928,
+        0.9999090433120728
+      ],
+      "min": [
+        -0.9999194145202637,
+        -0.9999806880950928,
+        -0.9999090433120728
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 66240,
+      "componentType": 5126,
+      "count": 11096,
+      "max": [
+        1.0,
+        0.9581223130226135
+      ],
+      "min": [
+        0.0,
+        0.060725390911102295
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 114384,
+      "componentType": 5125,
+      "count": 65016,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Kuzzy (https://sketchfab.com/Kuzzy26)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/spider-man-5e47c63e3dd4436f86e838cfaa334447",
+      "title": "Spider-Man"
+    },
+    "generator": "Sketchfab-14.8.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 374448,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 155008,
+      "byteOffset": 374448,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 465024,
+      "byteOffset": 529456,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 994480,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.013_baseColor.png"
+    },
+    {
+      "uri": "textures/Material.013_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.007",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8741016689,
+          0.8741016689,
+          0.8741016689,
+          1.0
+        ],
+        "metallicFactor": 0.7975646879756468,
+        "roughnessFactor": 0.1400304414003044
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.008",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.003438144294573975,
+          0.003438144294573975,
+          0.003438144294573975,
+          1.0
+        ],
+        "metallicFactor": 0.273972602739726,
+        "roughnessFactor": 0.4703196347031964
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.013",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.83,
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.547945205479452,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Retopo_Plane_Material.007_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Retopo_Plane.001_Material.008_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Retopo_Sphere.001_Material.013_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "a34387cb73e346be874648f7d734902d.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        15.398974418640137,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.398974418639932,
+        2.5088116785363402e-06,
+        0.0,
+        0.0,
+        -2.5088116785363402e-06,
+        15.398974418639932,
+        0.0,
+        0.34129321575164795,
+        170.3621368408203,
+        -5.714434623718262,
+        1.0
+      ],
+      "name": "Retopo_Plane"
+    },
+    {
+      "mesh": 0,
+      "name": "Retopo_Plane_Material.007_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.02175355702638626,
+        1.0
+      ],
+      "name": "Retopo_Plane.001"
+    },
+    {
+      "mesh": 1,
+      "name": "Retopo_Plane.001_Material.008_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Retopo_Sphere.001"
+    },
+    {
+      "mesh": 2,
+      "name": "Retopo_Sphere.001_Material.013_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
